@@ -1,0 +1,15 @@
+2020-May-27 18:25:21,732 [main] com.Testing.Keywords.Keyword 
+  INFO  Chromeis opend Successfully
+ 2020-May-27 18:25:25,324 [main] com.Testing.Keywords.Keyword 
+  INFO  Launched the url: https://www.shopclues.com/
+ 2020-May-27 18:25:45,530 [main] com.Testing.Keywords.Keyword 
+  INFO  Popup is closed
+ 2020-May-27 18:25:48,417 [main] com.Testing.Keywords.Keyword 
+  INFO  Search product: Shoes
+ 2020-May-27 18:25:49,068 [main] com.Testing.Keywords.searchcomponent.SerchComponent 
+  INFO  close browser
+ 2020-May-27 18:25:51,618 [main] com.Testing.Keywords.Keyword 
+  INFO  Chromeis opend Successfully
+ 2020-May-27 18:25:55,925 [main] com.Testing.Keywords.Keyword 
+  INFO  Launched the url: https://www.shopclues.com/
+ 

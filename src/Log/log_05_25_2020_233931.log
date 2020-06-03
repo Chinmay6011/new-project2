@@ -1,0 +1,7 @@
+2020-May-25 23:39:25,173 [main] com.Testing.Keywords.Keyword 
+  INFO  Chromeis opend Successfully
+ 2020-May-25 23:39:30,673 [main] com.Testing.Keywords.Keyword 
+  INFO  Launched the url: https://www.flipkart.com/
+ 2020-May-25 23:39:30,818 [main] com.Testing.Keywords.Keyword 
+  INFO  Popup is closed
+ 

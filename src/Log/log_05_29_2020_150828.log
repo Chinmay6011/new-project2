@@ -1,0 +1,7 @@
+2020-May-29 15:08:01,505 [main] com.Testing.Keywords.Keyword 
+  INFO  Chromeis opend Successfully
+ 2020-May-29 15:08:04,964 [main] com.Testing.Keywords.Keyword 
+  INFO  Launched the url: https://www.shopclues.com/
+ 2020-May-29 15:08:25,112 [main] com.Testing.Keywords.Keyword 
+  INFO  Popup is closed
+ 

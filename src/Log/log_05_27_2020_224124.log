@@ -1,0 +1,7 @@
+2020-May-27 22:41:00,762 [main] com.Testing.Keywords.Keyword 
+  INFO  Launched the url: https://www.shopclues.com/
+ 2020-May-27 22:41:21,059 [main] com.Testing.Keywords.Keyword 
+  INFO  Popup is closed
+ 2020-May-27 22:41:22,825 [main] com.Testing.Keywords.Keyword 
+  INFO  Search product: bat
+ 
