@@ -5,7 +5,8 @@ import org.testng.annotations.Test;
 
 import com.Testing.Keywords.Keyword;
 
-public class HomePageVerify extends Keyword {
+public class HomePageVerify extends Keyword{
+	public class homepageVerify extends Login{
 	//@Test
 	public void VerifyTitle() {
 		Keyword.openBrowser("Chrome");
@@ -27,7 +28,8 @@ public class HomePageVerify extends Keyword {
 	Keyword.clickLogo();
 
     Assert.assertTrue(true);
-    System.out.println("refreash");
+    System.out.println("refreash Website");
+    Keyword.closeBrowser();
    
 	}
  //@Test
@@ -43,6 +45,7 @@ public class HomePageVerify extends Keyword {
    Keyword.mouseHaverLogo();
    Assert.assertTrue(true, "shopclues online shopclues");
    Keyword.closeBrowser();
+  
 	 
  }
  //@Test
@@ -64,7 +67,7 @@ public class HomePageVerify extends Keyword {
 	   Assert.assertTrue(true, "notification massage should display");
 	 
  }
- @Test
+// @Test
  public void VerifyClicknotifiButton() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");
@@ -80,6 +83,103 @@ public class HomePageVerify extends Keyword {
 		e.printStackTrace();
 	}
 	   Keyword.clickNotificationButton();
-	   Assert.assertTrue(false, "notification not clickable");
- }	   
+	   Assert.assertTrue(true, "notification button not clickable");
+	   Keyword.closeBrowser();
+ }	
+ //@Test
+ 
+ public void OpenWishlistbutton() {
+	 try {
+		Thread.sleep(5000);
+	} catch (InterruptedException e) {
+		
+		e.printStackTrace();
+	}
+	 Keyword.ClickWishlistButton();
+	 try {
+		Thread.sleep(7000);
+	} catch (InterruptedException e) {
+		e.printStackTrace();
+	}
+	 Keyword.closeBrowser();
+	 Assert.assertTrue(true, "open Wishlistbutton");
+	   
+
+	 
+ }
+// @Test
+ public void RemoveToWishlistbutton() {
+	 try {
+		Thread.sleep(5000);
+	} catch (InterruptedException e) {
+		
+		e.printStackTrace();
+	}
+	 Keyword.ClickWishlistButton();
+	 try {
+		Thread.sleep(7000);
+	} catch (InterruptedException e) {
+		e.printStackTrace();
+	}
+	 Keyword.removeToWishlist();
+	 Assert.assertTrue(true, "Successfully removed product");
+	 Keyword.closeBrowser();
+	   
+ 
+ }
+// @Test
+ public void addToCartFromWishlist() {
+	 try {
+		Thread.sleep(5000);
+	} catch (InterruptedException e) {
+		
+		e.printStackTrace();
+	}
+	 Keyword.ClickWishlistButton();
+	 try {
+		Thread.sleep(7000);
+	} catch (InterruptedException e) {
+		e.printStackTrace();
+	}
+	 Keyword.addToCartFromWishlist();
+	 Assert.assertTrue(true, "Successfully move product add to cart");
+	
+ }
+ @Test
+ public void addToCartProductWishlist() {
+	 Keyword.workAtHomeImage();
+	 
+ }
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

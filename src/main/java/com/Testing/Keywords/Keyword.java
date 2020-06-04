@@ -149,8 +149,27 @@ public class Keyword extends Constant{
 	}
 	public static void clickNotificationButton() {
 		getWebElement("notificationButton").click();
-		
-	
+	}
+	public static void clickShareLocationButton() {
+		getWebElement("shareLocationButton").click();
+	}
+	public static void enterPincode(String pincode) {
+		getWebElement("enterPincode").sendKeys(pincode);
+	}
+	public static void submitPinCodePopup(){
+		getWebElement("submitPinCodePopup").click();
+	}
+	public static void ClickWishlistButton() {
+		getWebElement("clickWishlistButton").click();
+	} 
+	public static void removeToWishlist() {
+		getWebElement("removeToWishlist").click();
+	}
+	public static void addToCartFromWishlist() {
+		getWebElement("addToCartFromWishlist").click();	
+	}
+	public static void workAtHomeImage() {
+		getWebElement("workAtHomeImage").click();
 
 
 	

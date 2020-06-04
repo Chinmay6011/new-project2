@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import com.Testing.Keywords.Keyword;
 
 public class VerifyLogin {
-	// @Test
+	 @Test
 	public void verifyLogin() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");
@@ -33,7 +33,7 @@ public class VerifyLogin {
 
 	}
 
-	// @Test
+	 @Test
 	public void verifyInvalidUserName() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");
@@ -59,7 +59,7 @@ public class VerifyLogin {
 
 	}
 
-	// @Test
+	 @Test
 	public void verifyInvalidpassword() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");
@@ -85,7 +85,7 @@ public class VerifyLogin {
 
 	}
 
-	// @Test
+	 @Test
 	public void verifyInvaliduserNamepassword() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");
@@ -111,7 +111,7 @@ public class VerifyLogin {
 
 	}
 
-	// @Test
+	 @Test
 	public void InBetweenSpaceInUserName() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");
@@ -137,7 +137,7 @@ public class VerifyLogin {
 
 	}
 
-	//@Test
+	@Test
 	public void notEnterUserAndPass() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");
@@ -153,7 +153,7 @@ public class VerifyLogin {
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+		
 			e.printStackTrace();
 		}
 		Keyword.clickloginButton();
@@ -161,7 +161,7 @@ public class VerifyLogin {
 		Assert.assertTrue(true, "Not login account ");
 
 	}
-	//@Test
+	@Test
 	public void VerifyOnlyPassWord() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");
@@ -185,7 +185,7 @@ public class VerifyLogin {
 		Keyword.closeBrowser();
 		Assert.assertEquals( "Please enter your password",  "Please enter your password");
 	}
-	//@Test
+	@Test
 	public void VerifyOnlyUserName() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");
@@ -209,7 +209,7 @@ public class VerifyLogin {
 		Keyword.closeBrowser();
 		Assert.assertEquals( "Please enter email id or mobile number.",  "Please enter email id or mobile number.");
 	}
-	//@Test
+	@Test
 	public void VerifyLoginInFacebokPage() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");
@@ -231,7 +231,7 @@ public class VerifyLogin {
 		Keyword.closeBrowser();
 		Assert.assertEquals("Log in to Facebook", "Log in to Facebook");
 	}
-	//@Test
+	@Test
 	public void VerifyLoginInFacebok() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");

@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import com.Testing.Keywords.Keyword;
 
 public class VerifySignInOTP {
-	//@Test
+	@Test
 	public void SendOTPInYourMobile() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");
@@ -30,10 +30,10 @@ public class VerifySignInOTP {
 		Keyword.signInUserName("7888161042");
 		Keyword.loginInOtp();
 	    Keyword.closeBrowser();
-	    assertTrue(true,"Send otp in yoyr mobile");
+	    assertTrue(true,"Send otp in your mobile");
 		
 	}
-	// @Test
+	@Test
 	public void unRegisterMobileNumber() {
 		   Keyword.openBrowser("Chrome");
 			Keyword.launchUrl("https://www.shopclues.com/");
@@ -56,7 +56,7 @@ public class VerifySignInOTP {
 			Keyword.closeBrowser();
 		assertTrue(true,"Account doesn't exist with this mobile number. Register now.");
 	}
-	 //@Test
+	 @Test
 	 public void FakeNumber() {
 		   Keyword.openBrowser("Chrome");
 			Keyword.launchUrl("https://www.shopclues.com/");

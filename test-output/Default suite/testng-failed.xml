@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Testing.Keywords.HomePage.HomePageVerify">
+      <class name="com.Testing.Keywords.HomePage.HomePageVerify$homepageVerify">
         <methods>
-          <include name="VerifyClicknotifiButton"/>
+          <include name="Login"/>
+          <include name="addToCartProductWishlist"/>
         </methods>
-      </class> <!-- com.Testing.Keywords.HomePage.HomePageVerify -->
+      </class> <!-- com.Testing.Keywords.HomePage.HomePageVerify$homepageVerify -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

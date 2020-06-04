@@ -10,7 +10,7 @@ import com.Testing.Keywords.Keyword;
 
 public class SerchComponent extends Keyword {
 	private Logger log= Logger.getLogger(SerchComponent.class);
-	//@Test
+	@Test
 	public void verifyPriceRange() {
 		Keyword.openBrowser("Chrome");
 		
@@ -27,7 +27,7 @@ public class SerchComponent extends Keyword {
 		assertTrue(true, "Search product result");
 		log.info("close browser");
 	}
-	//@Test
+	@Test
 	public void verifySpecialChar() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");
@@ -45,7 +45,7 @@ public class SerchComponent extends Keyword {
 		
 		
 	}
-	//@Test
+	@Test
 	public void verifyNumber() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");
@@ -60,7 +60,7 @@ public class SerchComponent extends Keyword {
 		Keyword.closeBrowser();
 		assertTrue(true, "NO RESULT FOUND !");
 	}
-	//@Test
+	@Test
 	public void SearcBarSaveProduct() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");
@@ -108,7 +108,7 @@ public class SerchComponent extends Keyword {
 		
 		
 	}
-	//@Test
+	@Test
 	public void nullproduct() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");
