@@ -146,9 +146,28 @@ public class HomePageVerify extends Keyword{
 	
  }
  @Test
- public void addToCartProductWishlist() {
-	 Keyword.workAtHomeImage();
-	 
+ public void addProductWishlist() {
+		Keyword.openBrowser("Chrome");
+		Keyword.launchUrl("https://www.shopclues.com/");
+		try {
+			Thread.sleep(20000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	   Keyword.closeloginPopup();
+	   try { 
+		Thread.sleep(5000);
+	} catch (InterruptedException e) {
+		e.printStackTrace();
+	}
+	 Keyword.clickDailyEssentials();
+	 try {
+		Thread.sleep(5000);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	 Keyword.addProductWishlist();
  }
 }
 }

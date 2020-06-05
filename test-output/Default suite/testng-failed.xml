@@ -5,8 +5,7 @@
     <classes>
       <class name="com.Testing.Keywords.HomePage.HomePageVerify$homepageVerify">
         <methods>
-          <include name="Login"/>
-          <include name="addToCartProductWishlist"/>
+          <include name="addProductWishlist"/>
         </methods>
       </class> <!-- com.Testing.Keywords.HomePage.HomePageVerify$homepageVerify -->
     </classes>

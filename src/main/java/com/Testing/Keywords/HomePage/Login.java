@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeClass;
 import com.Testing.Keywords.Keyword;
 
 public class Login {
-	 @BeforeClass
+	// @BeforeClass
 	public void Login() {
 		Keyword.openBrowser("Chrome");
 		Keyword.launchUrl("https://www.shopclues.com/");

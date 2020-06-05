@@ -168,8 +168,14 @@ public class Keyword extends Constant{
 	public static void addToCartFromWishlist() {
 		getWebElement("addToCartFromWishlist").click();	
 	}
-	public static void workAtHomeImage() {
-		getWebElement("workAtHomeImage").click();
+	public static void clickDailyEssentials() {
+		getWebElement("DailyEssentials").click();
+	} 
+	public static void addProductWishlist() {
+		getWebElement("AddProductWishlist").click();
+
+		
+	
 
 
 	
